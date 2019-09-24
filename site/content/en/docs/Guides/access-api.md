@@ -56,6 +56,7 @@ package main
 import (
 	"fmt"
 
+	logger "github.com/sirupsen/logrus"
 	agonesv1 "agones.dev/agones/pkg/apis/agones/v1"
 	"agones.dev/agones/pkg/client/clientset/versioned"
 	corev1 "k8s.io/api/core/v1"
